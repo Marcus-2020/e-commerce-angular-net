@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0IflVgi4T5Z3AOzsWm1Y/Td7k7mxDlwnw6j/dol4BQuaZ70cRFJ4Z6VwVeAtSikL/MsTVtk2GO+Mjt79FDcjOQ==",
+  "dgSpecHash": "J2qTCAFls5wB2npXKr1jPfi1PJ1aOj5Le7TZ3WBAmuvyOQKFO5EbXLkIDrypsgYEq3+QLjFRIfUG6aJmlpXGVQ==",
   "success": true,
-  "projectFilePath": "E:\\Projetos e Estudos\\cursos\\udemy\\e-commerce-angular-net\\skinet\\api\\API.csproj",
+  "projectFilePath": "E:\\Projetos e Estudos\\cursos\\udemy\\e-commerce-angular-net\\skinet\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ideapad-L340\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ideapad-L340\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.4\\microsoft.data.sqlite.core.6.0.4.nupkg.sha512",

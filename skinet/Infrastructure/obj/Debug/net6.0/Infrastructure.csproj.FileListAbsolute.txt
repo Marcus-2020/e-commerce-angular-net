@@ -1,0 +1,15 @@
+E:\Projetos e Estudos\cursos\udemy\e-commerce-angular-net\skinet\Infrastructure\bin\Debug\net6.0\Infrastructure.deps.json
+E:\Projetos e Estudos\cursos\udemy\e-commerce-angular-net\skinet\Infrastructure\bin\Debug\net6.0\Infrastructure.dll
+E:\Projetos e Estudos\cursos\udemy\e-commerce-angular-net\skinet\Infrastructure\bin\Debug\net6.0\Infrastructure.pdb
+E:\Projetos e Estudos\cursos\udemy\e-commerce-angular-net\skinet\Infrastructure\bin\Debug\net6.0\Core.dll
+E:\Projetos e Estudos\cursos\udemy\e-commerce-angular-net\skinet\Infrastructure\bin\Debug\net6.0\Core.pdb
+E:\Projetos e Estudos\cursos\udemy\e-commerce-angular-net\skinet\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.AssemblyReference.cache
+E:\Projetos e Estudos\cursos\udemy\e-commerce-angular-net\skinet\Infrastructure\obj\Debug\net6.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projetos e Estudos\cursos\udemy\e-commerce-angular-net\skinet\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfoInputs.cache
+E:\Projetos e Estudos\cursos\udemy\e-commerce-angular-net\skinet\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfo.cs
+E:\Projetos e Estudos\cursos\udemy\e-commerce-angular-net\skinet\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CoreCompileInputs.cache
+E:\Projetos e Estudos\cursos\udemy\e-commerce-angular-net\skinet\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CopyComplete
+E:\Projetos e Estudos\cursos\udemy\e-commerce-angular-net\skinet\Infrastructure\obj\Debug\net6.0\Infrastructure.dll
+E:\Projetos e Estudos\cursos\udemy\e-commerce-angular-net\skinet\Infrastructure\obj\Debug\net6.0\refint\Infrastructure.dll
+E:\Projetos e Estudos\cursos\udemy\e-commerce-angular-net\skinet\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
+E:\Projetos e Estudos\cursos\udemy\e-commerce-angular-net\skinet\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll

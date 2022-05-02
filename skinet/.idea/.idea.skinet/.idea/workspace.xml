@@ -9,34 +9,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40536cb1-8c29-47e2-8b00-af461b9151ab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/API/Extensions/ApplicationServicesExtension.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Entities/BaseEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Entities/ProductBrand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Entities/ProductType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Interfaces/IProductRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infrastructure/Data/Config/ProductConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infrastructure/Data/Repositories/ProductRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infrastructure/Data/StoreContextSeed.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Dtos/ProductToReturnDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Helpers/MappingProfiles.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Helpers/ProductUrlResolver.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Interfaces/IGenericRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Specifications/BaseSpecification.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Specifications/ISpecification.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Specifications/ProductsWithTypesAndBrandsSpecification.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/Data/Repositories/GenericRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/Data/SpecificationEvaluator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.skinet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.skinet/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/API/API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Controllers/ProductsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/ProductsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Extensions/ApplicationServicesExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Extensions/ApplicationServicesExtension.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/appsettings.Development.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/obj/API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/API.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/obj/API.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/API.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/API.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/API.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/obj/Debug/net6.0/API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/net6.0/API.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Entities/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Entities/Product.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/obj/Core.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/Core.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Class1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Infrastructure.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/net6.0/Infrastructure.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/net6.0/Infrastructure.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Infrastructure.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Infrastructure.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +46,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f4708639776589f5ac2739f6fcbfc67343b1f9dac51cc1dbfdb003eef77cc1c/Monitor.CoreCLR.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -114,8 +113,25 @@
       <option name="presentableId" value="Default" />
       <updated>1651243875943</updated>
       <workItem from="1651243883717" duration="58000" />
-      <workItem from="1651256368757" duration="7832000" />
+      <workItem from="1651256368757" duration="11994000" />
+      <workItem from="1651520097603" duration="2852000" />
+      <workItem from="1651522998585" duration="1346000" />
     </task>
+    <task id="LOCAL-00001" summary="Added seed data, repositories and product brand and type entities">
+      <created>1651355171690</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651355171690</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Finished implementation of repository pattern">
+      <created>1651420004615</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651420004615</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,5 +153,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Added seed data, repositories and product brand and type entities" />
+    <MESSAGE value="Finished implementation of repository pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished implementation of repository pattern" />
   </component>
 </project>

@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "n9F7eLIPTV3caTHBl/dlzubag3kE8Ob7QgkS7DsG0I/+f/j4XM2C/vHPRby7bPwH39ihXQpULwhziPwl5VNvpQ==",
+  "dgSpecHash": "sg8xxk8SEwBabIh8wj8ixY9v5wj05zDZuygVY5IuuTPEjslNUmoV2GK8Z4R66vIfmx28UIVrlChDvLk97IGtqA==",
   "success": true,
-  "projectFilePath": "E:\\Projetos e Estudos\\cursos\\udemy\\e-commerce-angular-net\\skinet\\api\\API.csproj",
+  "projectFilePath": "E:\\Projetos e Estudos\\cursos\\udemy\\e-commerce-angular-net\\skinet\\API\\API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ideapad-L340\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\ideapad-L340\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\ideapad-L340\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\ideapad-L340\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\ideapad-L340\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.4\\microsoft.data.sqlite.core.6.0.4.nupkg.sha512",
     "C:\\Users\\ideapad-L340\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.4\\microsoft.entityframeworkcore.6.0.4.nupkg.sha512",
     "C:\\Users\\ideapad-L340\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.4\\microsoft.entityframeworkcore.abstractions.6.0.4.nupkg.sha512",

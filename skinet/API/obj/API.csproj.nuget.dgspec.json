@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projetos e Estudos\\cursos\\udemy\\e-commerce-angular-net\\skinet\\api\\API.csproj": {}
+    "E:\\Projetos e Estudos\\cursos\\udemy\\e-commerce-angular-net\\skinet\\API\\API.csproj": {}
   },
   "projects": {
-    "E:\\Projetos e Estudos\\cursos\\udemy\\e-commerce-angular-net\\skinet\\api\\API.csproj": {
+    "E:\\Projetos e Estudos\\cursos\\udemy\\e-commerce-angular-net\\skinet\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projetos e Estudos\\cursos\\udemy\\e-commerce-angular-net\\skinet\\api\\API.csproj",
+        "projectUniqueName": "E:\\Projetos e Estudos\\cursos\\udemy\\e-commerce-angular-net\\skinet\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "E:\\Projetos e Estudos\\cursos\\udemy\\e-commerce-angular-net\\skinet\\api\\API.csproj",
+        "projectPath": "E:\\Projetos e Estudos\\cursos\\udemy\\e-commerce-angular-net\\skinet\\API\\API.csproj",
         "packagesPath": "C:\\Users\\ideapad-L340\\.nuget\\packages\\",
-        "outputPath": "E:\\Projetos e Estudos\\cursos\\udemy\\e-commerce-angular-net\\skinet\\api\\obj\\",
+        "outputPath": "E:\\Projetos e Estudos\\cursos\\udemy\\e-commerce-angular-net\\skinet\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -52,6 +52,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
